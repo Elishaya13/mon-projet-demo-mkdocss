@@ -66,3 +66,4 @@ nav:
     - 'Admonitions': fonctionnalités/admonitions.md
     - 'Blocs de code': fonctionnalités/blocs-de-code.md
     - 'Diagrammes (Mermaid)': fonctionnalités/diagrammes.md
+    - 'Onglets de contenu': fonctionnalités/onglets.md #
