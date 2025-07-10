@@ -15,7 +15,8 @@ graph TD
     B -->|Non| D[🐞 Correction des bugs];
     D --> B;
     C --> E[Fin];
-```    
+```
+
 ## Exemple de diagramme circulaire
 
 ```mermaid
