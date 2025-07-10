@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: 3.x
       - name: Install dependencies
-        run: pip install mkdocs-material pymdown-extensions mkdocs-mermaid2
+        run: pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin
       - name: Build with MkDocs
         run: mkdocs build
       - name: Upload artifact
