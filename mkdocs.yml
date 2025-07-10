@@ -35,7 +35,6 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -44,11 +43,17 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - toc:
       permalink: true
+  # Configuration spéciale pour Mermaid avec Material
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # --- Plugins ---
 plugins:
   - search
-  - mermaid2
+  # Le plugin mermaid2 n'est plus nécessaire ici car Material le gère
 
 # --- Structure de la navigation ---
 nav:
