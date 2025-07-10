@@ -61,6 +61,7 @@ nav:
   - 'Guide de démarrage':
     - 'Installation': guide/installation.md
     - 'Configuration': guide/configuration.md
+    - 'Déploiement sur Github' : guide/deploiement-github.md
   - 'Fonctionnalités':
     - 'Admonitions': fonctionnalités/admonitions.md
     - 'Blocs de code': fonctionnalités/blocs-de-code.md
