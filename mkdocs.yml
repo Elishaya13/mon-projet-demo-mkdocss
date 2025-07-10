@@ -30,6 +30,7 @@ theme:
     - navigation.top
     - search.suggest
     - content.code.copy
+    - content.code.annotate
 
 # --- Extensions Markdown ---
 markdown_extensions:
