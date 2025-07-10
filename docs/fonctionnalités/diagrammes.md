@@ -15,3 +15,12 @@ graph TD
     B -->|Non| D[🐞 Correction des bugs];
     D --> B;
     C --> E[Fin];
+```    
+## Exemple de diagramme circulaire
+
+```mermaid
+pie title Répartition des tâches
+    "Documentation" : 40
+    "Développement" : 40
+    "Tests" : 20
+```
