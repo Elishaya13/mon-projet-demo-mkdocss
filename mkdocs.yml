@@ -10,7 +10,7 @@ repo_url: https://github.com/elishaya13/mon-projet-demo-mkdocs
 theme:
   name: material
   language: fr
-  logo: assets/logo.svg
+  logo: assets/logo_mkdocs.png
   palette:
     # Mode clair
     - media: "(prefers-color-scheme: light)"
