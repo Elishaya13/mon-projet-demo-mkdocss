@@ -3,52 +3,52 @@ site_name: Projet de Démo MkDocs
 site_author: Angie Pons
 site_description: Une démonstration de la puissance de MkDocs avec le thème Material.
 
-# Lien vers le dépôt (optionnel, mais recommandé)
-repo_url: https://github.com/votre-nom/mon-super-projet
-repo_name: elishaya13/mon-projet-demo-mkdocs
+# Lien vers le dépôt
+repo_url: https://github.com/elishaya13/mon-projet-demo-mkdocs
 
 # --- Thème et fonctionnalités ---
 theme:
   name: material
-  language: fr # Pour avoir les textes de l'interface en français
-  logo: assets/logo.svg # Optionnel : ajoutez un logo dans docs/assets/
+  language: fr
+  logo: assets/logo.svg
   palette:
-    # Mode clair / sombre automatique
+    # Mode clair
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Passer au mode sombre
+    # Mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
   features:
-    - navigation.tabs # Affiche les sections principales comme des onglets
-    - navigation.sections # Permet de regrouper les pages dans le menu
-    - navigation.top # Ajoute un bouton "Retour en haut"
-    - search.suggest # Suggère des résultats pendant la frappe
-    - content.code.copy # Ajoute un bouton pour copier le code
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
 
-# --- Extensions Markdown pour plus de fonctionnalités ---
+# --- Extensions Markdown ---
 markdown_extensions:
-  - admonition # Blocs d'information (note, warning, etc.)
-  - pymdownx.details # Blocs de contenu dépliables
-  - pymdownx.superfences # Support avancé pour les blocs de code
-  - pymdownx.tabbed: # Onglets de contenu dans une page
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.smartsymbols # Convertit -- en – ou -> en →
+  - pymdownx.smartsymbols
   - toc:
-      permalink: true # Ajoute un lien direct vers chaque titre
+      permalink: true
 
 # --- Plugins ---
 plugins:
-  - search # Plugin de recherche intégré (indispensable)
-  - mermaid2 # Pour générer des diagrammes à partir de texte
+  - search
+  - mermaid2
 
 # --- Structure de la navigation ---
 nav:
