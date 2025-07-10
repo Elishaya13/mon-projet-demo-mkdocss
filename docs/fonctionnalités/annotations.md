@@ -17,10 +17,9 @@ class Connexion:
   def disconnect(self):
     pass # (3)
 ```
+
 1. Le constructeur de la classe initialise les attributs de l'instance.
-
 2. Cette méthode simule une connexion au serveur. La f-string permet de formater la chaîne de caractères avec les variables `host` et `port`.
-
 3. La commande `pass` est une instruction qui ne fait rien. Elle est utilisée ici comme un placeholder pour une future implémentation.
 
 ## Annotation dans un Onglet
