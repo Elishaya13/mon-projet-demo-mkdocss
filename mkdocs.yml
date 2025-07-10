@@ -48,7 +48,7 @@ markdown_extensions:
 # --- Plugins ---
 plugins:
   - search # Plugin de recherche intégré (indispensable)
-  - mermaid # Pour générer des diagrammes à partir de texte
+  - mermaid2 # Pour générer des diagrammes à partir de texte
 
 # --- Structure de la navigation ---
 nav:
