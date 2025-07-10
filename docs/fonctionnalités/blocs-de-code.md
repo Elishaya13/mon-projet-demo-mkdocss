@@ -13,7 +13,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```javascript
+```javascript title=Exemple en JavaScript"
 function greet(name) {
   // Affiche un message de salutation dans la console
   console.log( `Hello, ${name}!`);
