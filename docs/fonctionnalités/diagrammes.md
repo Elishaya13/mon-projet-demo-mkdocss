@@ -1,7 +1,3 @@
-
-#### `docs/fonctionnalités/diagrammes.md`
-
-```markdown
 # Diagrammes avec Mermaid
 
 Vous pouvez intégrer des diagrammes complexes directement dans votre documentation en écrivant simplement du texte.
