@@ -1,8 +1,10 @@
-# Annotations de code
+# Annotations
+
+## Annotation de code
 
 Les annotations permettent d'ajouter des notes sur des lignes de code spécifiques, qui apparaissent lorsque l'on clique sur le numéro correspondant.
 
-```{.python .annotate} title="Exemple avec de code avec annotations"
+```python title="Exemple avec de code avec annotations"
 class Connexion:
   def __init__(self, host, port):
     self.host = host # (1)
@@ -21,7 +23,7 @@ class Connexion:
 
 3. La commande `pass` est une instruction qui ne fait rien. Elle est utilisée ici comme un placeholder pour une future implémentation.
 
-## Annotation un Onglet
+## Annotation dans un Onglet
 
 Il est également possible de combiner ces fonctionnalités pour des cas d'usage plus complexes.
 
