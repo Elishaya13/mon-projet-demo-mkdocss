@@ -43,6 +43,8 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
   # Configuration spéciale pour Mermaid avec Material
   - pymdownx.superfences:
       custom_fences:
@@ -67,4 +69,4 @@ nav:
     - 'Blocs de code': fonctionnalités/blocs-de-code.md
     - 'Diagrammes (Mermaid)': fonctionnalités/diagrammes.md
     - 'Onglets de contenu': fonctionnalités/onglets.md
-    - 'Annotations de code': fonctionnalités/annotations.md
+    - 'Annotations': fonctionnalités/annotations.md
