@@ -6,13 +6,13 @@ Le thème Material for MkDocs offre de nombreuses options pour afficher et inter
 
 Pour afficher une image, utilisez la syntaxe Markdown standard. Le texte entre guillemets deviendra la légende sous l'image.
 
-![Une image placeholder](assets/image.png "Ceci est la légende de l'image")
+![Une image placeholder](/assets/image.png "Ceci est la légende de l'image")
 
 ## Alignement des images
 
 Vous pouvez aligner une image à gauche ou à droite pour que le texte s'enroule autour d'elle.
 
-![Image alignée à gauche](assets/demo_image.png){ align=left width="300" }
+![Image alignée à gauche](docs/assets/demo_image.png){ align=left width="300" }
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa. In Tincidunt et pugna et porttitor. Mauris ultrices, justo vitae conubia nostra.
 
