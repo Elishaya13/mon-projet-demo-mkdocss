@@ -40,7 +40,7 @@ Vous pouvez aussi organiser des éléments plus complexes, comme des blocs de co
 # Ce bloc de code fait partie de la grille
 print("Hello, Grid!")
 ```
-
+</div>
 
 ## Grille avec des onglets
 
