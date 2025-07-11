@@ -14,7 +14,7 @@ C'est la méthode la plus courante. Chaque élément est présenté dans une "ca
 
     Installez le thème et soyez opérationnel en quelques minutes.
 
-    [:octicons-arrow-right-24: Voir le guide d'installation](guide/installation.md)
+    [:octicons-arrow-right-24: Voir le guide d'installation](../guide/installation.md)
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __Juste du Markdown__
 
@@ -22,7 +22,7 @@ C'est la méthode la plus courante. Chaque élément est présenté dans une "ca
 
     Concentrez-vous sur le contenu et générez un site statique moderne et responsive.
 
-    [:octicons-arrow-right-24: Voir les fonctionnalités](fonctionnalités/admonitions.md)
+    [:octicons-arrow-right-24: Voir les fonctionnalités](../fonctionnalités/admonitions.mdmd)
 
 </div>
 
