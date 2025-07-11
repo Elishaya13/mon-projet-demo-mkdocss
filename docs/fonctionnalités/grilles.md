@@ -22,7 +22,7 @@ C'est la méthode la plus courante. Chaque élément est présenté dans une "ca
 
     Concentrez-vous sur le contenu et générez un site statique moderne et responsive.
 
-    [:octicons-arrow-right-24: Voir les fonctionnalités](./admonitions.mdmd)
+    [:octicons-arrow-right-24: Voir les fonctionnalités](../admonitions.mdmd)
 
 </div>
 
