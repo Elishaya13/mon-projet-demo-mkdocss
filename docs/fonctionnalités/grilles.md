@@ -78,7 +78,7 @@ print("Hello, Grid!")
     2. Donec vitae suscipit est
     3. Nulla tempor lobortis orci
 
-``` title="Content tabs"
+``` title="Contenu de l'onglet"
 === "Unordered list"
 
     * Sed sagittis eleifend rutrum
