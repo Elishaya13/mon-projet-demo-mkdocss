@@ -18,30 +18,30 @@ Si vous souhaitez aligner une colonne spécifique sur `left`, `center` ou `right
 
 === "Gauche"
 
-Le contenu est aligné à gauche
+    Le contenu est aligné à gauche
 
-| Gauche         | Gauche          | Gauche      |
-|:---------------|:--------------  |:------------|
-| Contenu gauche | Aligné à gauche | 100,00 €    |
-| `du code`      | *de l'italique* | **du gras** |
-| Cellule 3      | Cellule 4       | 5,00 €      |
+    | Gauche         | Gauche          | Gauche      |
+    |:---------------|:--------------  |:------------|
+    | Contenu gauche | Aligné à gauche | 100,00 €    |
+    | `du code`      | *de l'italique* | **du gras** |
+    | Cellule 3      | Cellule 4       | 5,00 €      |
 
 === "Droite"
 
-Le contenu est aligné à droite
+    Le contenu est aligné à droite
 
-| Droite          | Droite          | Droite      |
-|----------------:|----------------:|------------:|
-| Contenu droit   | Aligné à droite | 100,00 €    |
-| `du code`       | *de l'italique* | **du gras** |
-| Cellule 3       | Cellule 4       | 5,00 €      |
+    | Droite          | Droite          | Droite      |
+    |----------------:|----------------:|------------:|
+    | Contenu droit   | Aligné à droite | 100,00 €    |
+    | `du code`       | *de l'italique* | **du gras** |
+    | Cellule 3       | Cellule 4       | 5,00 €      |
 
 === "Centre"
 
-Le contenu est aligné au centre
+    Le contenu est aligné au centre
 
-| Centré          | Centré          | Centré      |
-|:---------------:|:---------------:|:-----------:|
-| Contenu centré  | Aligné au centre| 100,00 €    |
-| `du code`       | *de l'italique* | **du gras** |
-| Cellule 3       | Cellule 4       | 5,00 €      |
+    | Centré          | Centré          | Centré      |
+    |:---------------:|:---------------:|:-----------:|
+    | Contenu centré  | Aligné au centre| 100,00 €    |
+    | `du code`       | *de l'italique* | **du gras** |
+    | Cellule 3       | Cellule 4       | 5,00 €      |
