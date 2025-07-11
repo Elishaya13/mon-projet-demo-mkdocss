@@ -1,7 +1,7 @@
 name: Deploy MkDocs site with Mike
 
 on:
-  workflow_dispatch: # Déclenchement manuel
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -15,10 +15,16 @@ jobs:
         with:
           python-version: 3.x
 
-      # 3. Installe Mike et toutes les dépendances de votre thème
+      # 3. Installe les dépendances
       - name: Install dependencies
         run: pip install mkdocs-material mike pymdown-extensions mkdocs-mermaid2-plugin
 
-      # 4. Déploie la version 1.0.0 et la met comme version "latest"
+      # 4. Configure l'auteur pour Git (ÉTAPE AJOUTÉE)
+      - name: Configure Git author
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
+      # 5. Déploie avec Mike
       - name: Deploy with Mike
         run: mike deploy 1.0.0 latest --push --update-aliases -m "Déploiement de la version 1.0.0"
