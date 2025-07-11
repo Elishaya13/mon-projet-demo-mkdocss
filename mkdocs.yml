@@ -49,6 +49,7 @@ markdown_extensions:
       permalink: true
   - attr_list
   - md_in_html
+  - tables
   # Configuration spéciale pour Mermaid avec Material
   - pymdownx.superfences:
       custom_fences:
@@ -59,7 +60,6 @@ markdown_extensions:
 # --- Plugins ---
 plugins:
   - search
-  # Le plugin mermaid2 n'est plus nécessaire ici car Material le gère
 
 # --- Structure de la navigation ---
 nav:
@@ -68,7 +68,7 @@ nav:
   - 'Guide de démarrage':
     - 'Installation': guide/installation.md
     - 'Configuration': guide/configuration.md
-    - 'Déploiement sur Github' : guide/deploiement-github.md
+    - 'Déploiement sur Github': guide/deploiement-github.md
   - 'Fonctionnalités':
     - 'Admonitions': fonctionnalités/admonitions.md
     - 'Blocs de code': fonctionnalités/blocs-de-code.md
@@ -77,4 +77,4 @@ nav:
     - 'Annotations': fonctionnalités/annotations.md
     - 'Images': fonctionnalités/images.md
     - 'Grilles': fonctionnalités/grilles.md
-    - 'Tableaux de données' : fonctionnalités/tableaux-de-données.md
+    - 'Tableaux': fonctionnalités/tableaux.md
