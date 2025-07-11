@@ -4,7 +4,8 @@ site_description: Une démonstration de la puissance de MkDocs avec le thème Ma
 repo_url: https://github.com/elishaya13/mon-projet-demo-mkdocs
 
 extra:
-  version: 1.0.0
+  version:
+    provider: mike
 
 theme:
   name: material
@@ -51,6 +52,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - mike
 
 nav:
   - 'Accueil': index.md
