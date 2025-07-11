@@ -40,3 +40,56 @@ Vous pouvez aussi organiser des éléments plus complexes, comme des blocs de co
 # Ce bloc de code fait partie de la grille
 print("Hello, Grid!")
 ```
+
+
+## Grille avec des onglets
+
+<div class="grid" markdown>
+
+=== "Onglet 1 : Python"
+
+    ```python
+    # Cet onglet est dans une grille
+    print("Hello, Tab 1!")
+    ```
+
+=== "Onglet 2 : JavaScript"
+
+    ```javascript
+    // Cet onglet est aussi dans la grille
+    console.log("Hello, Tab 2!");
+    ```
+
+</div>
+
+## Grille avec exemples combinés
+
+<div class="grid" markdown>
+
+=== "Unordered list"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+``` title="Content tabs"
+=== "Unordered list"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+```
+
+</div>
