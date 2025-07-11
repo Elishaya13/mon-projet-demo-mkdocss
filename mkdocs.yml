@@ -61,6 +61,7 @@ plugins:
 # --- Structure de la navigation ---
 nav:
   - 'Accueil': index.md
+  - 'Changelog': CHANGELOG.md
   - 'Guide de démarrage':
     - 'Installation': guide/installation.md
     - 'Configuration': guide/configuration.md
