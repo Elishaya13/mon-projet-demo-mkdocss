@@ -1,47 +1,24 @@
-name: Deploy MkDocs site to GitHub Pages
+name: Deploy MkDocs site with Mike
 
 on:
-  # Se déclenche lors des push sur la branche principale
-  #push:
-    #branches: ["main"] # ou "master" si votre branche s'appelle comme ça
-
-  # Permet de lancer ce workflow manuellement depuis l'onglet Actions
-  workflow_dispatch:
-
-# Définit les permissions nécessaires au déploiement
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+  workflow_dispatch: # Déclenchement manuel
 
 jobs:
-  # Job pour construire le site
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      # 1. Récupère le code de votre dépôt
+      - uses: actions/checkout@v4
+
+      # 2. Installe Python
+      - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - name: Install dependencies
-        run: pip install mkdocs-material pymdown-extensions mkdocs-mermaid2-plugin
-      - name: Build with MkDocs
-        run: mkdocs build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './site'
 
-  # Job pour déployer le site
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # 3. Installe Mike et toutes les dépendances de votre thème
+      - name: Install dependencies
+        run: pip install mkdocs-material mike pymdown-extensions mkdocs-mermaid2-plugin
+
+      # 4. Déploie la version 1.0.0 et la met comme version "latest"
+      - name: Deploy with Mike
+        run: mike deploy 1.0.0 latest --push --update-aliases -m "Déploiement de la version 1.0.0"
