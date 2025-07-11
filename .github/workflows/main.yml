@@ -2,6 +2,9 @@ name: Deploy MkDocs site with Mike
 
 on:
   workflow_dispatch:
+  
+permissions: 
+  contents: write
 
 jobs:
   deploy:
