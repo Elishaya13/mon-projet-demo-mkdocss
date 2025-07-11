@@ -16,7 +16,7 @@ La syntaxe utilise des barres verticales `|` pour séparer les colonnes et des t
 
 Si vous souhaitez aligner une colonne spécifique sur `left`, `center` ou `right`, vous pouvez utiliser la syntaxe Markdown standard en plaçant des caractères `:` au début et/ou à la fin de la ligne de séparation.
 
-=== Gauche
+=== "Gauche"
 Le contenu est aligné à gauche
 
 | Gauche         | Gauche          | Gauche      |
@@ -25,7 +25,7 @@ Le contenu est aligné à gauche
 | `du code`      | *de l'italique* | **du gras** |
 | Cellule 3      | Cellule 4       | 5,00 €      |
 
-=== Droite
+=== "Droite"
 
 Le contenu est aligné à droite.
 
@@ -35,7 +35,7 @@ Le contenu est aligné à droite.
 | `du code`       | *de l'italique* | **du gras** |
 | Cellule 3       | Cellule 4       | 5,00 €      |
 
-=== Centre
+=== "Centre"
 
 Le contenu est aligné au centre.
 
