@@ -52,7 +52,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - mike
 
 nav:
   - 'Accueil': index.md
