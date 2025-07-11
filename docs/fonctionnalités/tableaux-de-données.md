@@ -19,6 +19,7 @@ Si vous souhaitez aligner une colonne spécifique sur `left`, `center` ou `right
 === "Gauche"
 
 Le contenu est aligné à gauche
+
 | Gauche         | Gauche          | Gauche      |
 |:---------------|:--------------  |:------------|
 | Contenu gauche | Aligné à gauche | 100,00 €    |
@@ -28,6 +29,7 @@ Le contenu est aligné à gauche
 === "Droite"
 
 Le contenu est aligné à droite
+
 | Droite          | Droite          | Droite      |
 |----------------:|----------------:|------------:|
 | Contenu droit   | Aligné à droite | 100,00 €    |
@@ -37,6 +39,7 @@ Le contenu est aligné à droite
 === "Centre"
 
 Le contenu est aligné au centre
+
 | Centré          | Centré          | Centré      |
 |:---------------:|:---------------:|:-----------:|
 | Contenu centré  | Aligné au centre| 100,00 €    |
