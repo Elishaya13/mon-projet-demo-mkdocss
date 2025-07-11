@@ -1,69 +1,57 @@
-# Informations générales du site
-site_name: Test de Version 123
-extra:
-  version: 1.0.0
+site_name: Projet de Démo MkDocs
 site_author: Angie Pons
 site_description: Une démonstration de la puissance de MkDocs avec le thème Material.
+repo_url: https://github.com/elishaya13/mon-projet-demo-mkdocs
 
 extra:
   version: 1.0.0
 
-# Lien vers le dépôt
-repo_url: https://github.com/elishaya13/mon-projet-demo-mkdocs
-
-# --- Thème et fonctionnalités ---
 theme:
   name: material
   language: fr
   logo: assets/logo_mkdocs.png
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
   palette:
-    # Mode clair
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Passer au mode sombre
-    # Mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - content.code.copy
-    - content.code.annotate
 
-# --- Extensions Markdown ---
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
   - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.smartsymbols
-  - toc:
-      permalink: true
-  - attr_list
-  - md_in_html
-  - tables
-  # Configuration spéciale pour Mermaid avec Material
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
 
-# --- Plugins ---
 plugins:
   - search
 
-# --- Structure de la navigation ---
 nav:
   - 'Accueil': index.md
   - 'Changelog': CHANGELOG.md
